@@ -1,0 +1,20 @@
+# Ignore VS Code settings
+.vscode/
+
+# Ignore build directories
+**/build/
+
+# Ignore Gradle cache
+.gradle/
+
+# Ignore IDE files
+*.iml
+.idea/
+
+# Ignore captures
+captures/
+
+# Ignore APKs and keystores
+*.apk
+*.keystore
+
