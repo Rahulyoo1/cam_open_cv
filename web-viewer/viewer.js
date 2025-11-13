@@ -1,0 +1,1 @@
+function loadBase64(b){ document.getElementById('frame').src='data:image/png;base64,'+b; }

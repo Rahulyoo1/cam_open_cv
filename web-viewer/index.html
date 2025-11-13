@@ -1,0 +1,8 @@
+<!DOCTYPE html><html><body>
+<h2>Web Viewer</h2>
+<img id="frame"/>
+<script src="viewer.js"></script>
+<script>
+fetch('sample_frame_base64.txt').then(r=>r.text()).then(b=>loadBase64(b));
+</script>
+</body></html>
